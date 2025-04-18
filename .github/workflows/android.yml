@@ -1,6 +1,7 @@
 name: Build MPL
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "v8.1" ]
   pull_request:
